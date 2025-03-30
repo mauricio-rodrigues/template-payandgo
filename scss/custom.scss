@@ -1,0 +1,191 @@
+
+.btn-signin {
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    border: 1px solid var(--pgblack, $secondary);
+}
+.btn-registo {
+    font-size: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 40px;
+    color: $light;
+    background: var(--pgblue, $primary);
+    border: 1px solid var(--pgblack, $primary);
+}
+
+.btn.header-menu-item {
+    font-size: 14px;
+    border-radius: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+    height: 40px;
+    color: $secondary;
+}
+
+.jumbo-header {
+    font-size: 36.65px;
+    text-transform: uppercase;
+    color: $light;
+}
+
+.jumbo-text{
+    font-size: 22.65px;
+    text-transform: uppercase;
+    color: var(--pgblue, $primary);
+    color: $light;
+}
+
+.btn-calltoaction {
+    height: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: $light;
+    color: $primary;
+    border: 0px;
+}
+
+.home-card-text {
+    font-weight: 300;
+    font-size: 20.65px;
+    text-transform: uppercase;
+    color: var(--pgblack, $secondary);
+    text-align: center;
+}
+
+.fundo-jumbo {
+    width:100%;
+    //background-color: $primary;
+    border-radius: 0 0 25px 25px;
+    background-image: url("../dist/img/home-image.png");
+    background-size: contain;
+}
+
+.msg-pode-contar {
+    font-size: 36.65px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--pgblack, $light);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: $primary;
+}
+
+.btn.header-menu-item.menu-item-footer {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: $light;
+}
+.btn.header-menu-item.menu-item-footer:active {
+    color: $light;
+    border: 1px solid $light;
+}
+
+.footer.py-3 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important
+}
+
+.contam-connosco {
+    font-size: 36.65px;
+    text-transform: uppercase;
+    color: var(--pgblue, $primary);
+    padding: 40px 0 20px 0;
+}
+
+.btn.blog-btn {
+    font-size: 14px;
+    line-height: 100%;
+    padding: 9px;
+    background: $light;
+    width: 100%;
+    height: 40px;
+    border: 3px solid var(--pgblue, $primary);
+    color: $primary;
+}
+.btn.blog-btn:hover {
+    color: $primary;
+    border: 3px solid var(--pgblue, $primary);
+}
+.btn.blog-btn:active {
+    color: $primary;
+    border: 3px solid var(--pgblue, $primary);
+}
+
+.newsletter {
+    background: $primary;
+    padding: 30px;
+}
+h2.newsletter-title {
+    font-size: 36.65px;
+    text-transform: uppercase;
+    color: $light;
+}
+.txt-politica {
+    font-size: 12px;
+    vertical-align: middle;
+    color: var(--White, $light);
+    padding: 15px;
+}
+.btn-newsletter {
+    padding-right: 30px;
+    padding-left: 30px;
+    background: $light;
+    color: $primary;
+    border: 0px;
+}
+
+.contacto {
+    background: #004C991A;
+    padding: 30px;
+}
+
+.btn-contacto {
+    font-size: 14px;
+    border-radius: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 40px;
+    color: $light;
+    background: var(--pgblue, $primary);
+    border: 1px solid var(--pgblack, $primary);
+    width: 100%;
+}
+
+
+.form-control.contact-input {
+    border-radius: 4px;
+    border-width: 1px;
+    color: var(--White, $primary);   
+}
+
+.ig-contact {
+    padding: 5px;
+}
+.contact-border-bottom {
+    border-bottom: 0.5px solid var(--pgblue, $primary);
+    border-width: 0.5px;
+    //padding: 5px;
+}
+
+.contact-titulo {
+    font-size: 14px;
+    vertical-align: middle;
+    color: var(--pgblue, $primary);
+    margin-top:5px;
+}
+.contact-conteudo {
+    font-size: 14px;
+    vertical-align: middle;
+    color: var(--pgblue, $primary);
+    color: var(--pgblack, $secondary);
+    padding: 5px 5px 5px 0;
+}
+
+@import "bootstrap";
