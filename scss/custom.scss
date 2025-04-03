@@ -35,9 +35,30 @@
 .jumbo-text{
     font-size: 22.65px;
     text-transform: uppercase;
-    color: var(--pgblue, $primary);
     color: $light;
 }
+
+.jumbo-text-planos {
+    font-size: 14px;
+    color: $light;
+    padding-left: 3rem;
+}
+.jumbo-logo-planos {
+    padding-right: 3rem;
+}
+.jumbo-header-planos {
+    font-size: 36.65px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $light;
+    text-shadow: 4px 4px 6px $secondary;
+}
+.jumbo-nota-planos {
+    font-size: 10px;
+    color: $light;
+    text-align: right;
+}
+
 
 .btn-calltoaction {
     height: 40px;
@@ -49,10 +70,10 @@
 }
 
 .home-card-text {
-    font-weight: 300;
     font-size: 20.65px;
-    text-transform: uppercase;
     color: var(--pgblack, $secondary);
+    text-align: center;
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -61,7 +82,26 @@
     //background-color: $primary;
     border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/home-image.png");
+    background-color: $primary;
+    background-repeat:no-repeat;
     background-size: contain;
+}
+.fundo-planos {
+    width:100%;
+    border-radius: 0 0 25px 25px;
+    background-image: url("../dist/img/planos-image.png");
+    background-color: $primary;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.fundo-faqs {
+    width:100%;
+    border-radius: 0 0 25px 25px;
+    background-image: url("../dist/img/faqs.png");
+    background-color: $primary;
+    background-repeat:no-repeat;
+    height: 300px;
+    align-content:space-around;
 }
 
 .msg-pode-contar {
@@ -70,7 +110,7 @@
     text-transform: uppercase;
     color: var(--pgblack, $light);
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .footer {
@@ -92,7 +132,14 @@
     padding-bottom: 2rem !important
 }
 
-.contam-connosco {
+.titulo-preto {
+    font-size: 36.65px;
+    text-transform: uppercase;
+    color: var(--pgblack, $secondary);
+    padding: 40px 0 20px 0;
+}
+
+.titulo-azul {
     font-size: 36.65px;
     text-transform: uppercase;
     color: var(--pgblue, $primary);
@@ -133,6 +180,10 @@ h2.newsletter-title {
     color: var(--White, $light);
     padding: 15px;
 }
+.newsletter-txt {
+    font-size: 14px;
+    color: $light;
+}
 .btn-newsletter {
     padding-right: 30px;
     padding-left: 30px;
@@ -157,7 +208,6 @@ h2.newsletter-title {
     border: 1px solid var(--pgblack, $primary);
     width: 100%;
 }
-
 
 .form-control.contact-input {
     border-radius: 4px;
@@ -186,6 +236,30 @@ h2.newsletter-title {
     color: var(--pgblue, $primary);
     color: var(--pgblack, $secondary);
     padding: 5px 5px 5px 0;
+}
+
+.container-precos {
+    background: linear-gradient(0deg, $primary 87%, $light 13%);
+}
+
+.titulo-quem-somos {
+    font-size: 83.67px;
+    text-transform: uppercase;
+    color: var(--pgblue, $primary);
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.titulo-contacto {
+    font-size: 83.67px;
+    text-transform: uppercase;
+    color: var(--pgblue, $primary);
+}
+
+.sub-titulo-registo {
+    font-size: 22.65px;
+    color: var(--pgblue, $primary);
+    padding-bottom: 1rem;
 }
 
 @import "bootstrap";

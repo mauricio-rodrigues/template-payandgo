@@ -36,8 +36,31 @@
 .jumbo-text {
   font-size: 22.65px;
   text-transform: uppercase;
-  color: var(--pgblue, #00025B);
   color: #F5F5F5;
+}
+
+.jumbo-text-planos {
+  font-size: 14px;
+  color: #F5F5F5;
+  padding-left: 3rem;
+}
+
+.jumbo-logo-planos {
+  padding-right: 3rem;
+}
+
+.jumbo-header-planos {
+  font-size: 36.65px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #F5F5F5;
+  text-shadow: 4px 4px 6px #1D1D1B;
+}
+
+.jumbo-nota-planos {
+  font-size: 10px;
+  color: #F5F5F5;
+  text-align: right;
 }
 
 .btn-calltoaction {
@@ -50,10 +73,10 @@
 }
 
 .home-card-text {
-  font-weight: 300;
   font-size: 20.65px;
-  text-transform: uppercase;
   color: var(--pgblack, #1D1D1B);
+  text-align: center;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -61,8 +84,28 @@
   width: 100%;
   border-radius: 0 0 25px 25px;
   background-image: url("../dist/img/home-image.png");
+  background-color: #00025B;
+  background-repeat: no-repeat;
   background-size: contain;
-  object-fit: fill;
+}
+
+.fundo-planos {
+  width: 100%;
+  border-radius: 0 0 25px 25px;
+  background-image: url("../dist/img/planos-image.png");
+  background-color: #00025B;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fundo-faqs {
+  width: 100%;
+  border-radius: 0 0 25px 25px;
+  background-image: url("../dist/img/faqs.png");
+  background-color: #00025B;
+  background-repeat: no-repeat;
+  height: 300px;
+  align-content: space-around;
 }
 
 .msg-pode-contar {
@@ -71,7 +114,7 @@
   text-transform: uppercase;
   color: var(--pgblack, #F5F5F5);
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .footer {
@@ -94,7 +137,14 @@
   padding-bottom: 2rem !important;
 }
 
-.contam-connosco {
+.titulo-preto {
+  font-size: 36.65px;
+  text-transform: uppercase;
+  color: var(--pgblack, #1D1D1B);
+  padding: 40px 0 20px 0;
+}
+
+.titulo-azul {
   font-size: 36.65px;
   text-transform: uppercase;
   color: var(--pgblue, #00025B);
@@ -138,6 +188,11 @@ h2.newsletter-title, .newsletter-title.h2 {
   vertical-align: middle;
   color: var(--White, #F5F5F5);
   padding: 15px;
+}
+
+.newsletter-txt {
+  font-size: 14px;
+  color: #F5F5F5;
 }
 
 .btn-newsletter {
@@ -193,6 +248,30 @@ h2.newsletter-title, .newsletter-title.h2 {
   color: var(--pgblue, #00025B);
   color: var(--pgblack, #1D1D1B);
   padding: 5px 5px 5px 0;
+}
+
+.container-precos {
+  background: linear-gradient(0deg, #00025B 87%, #F5F5F5 13%);
+}
+
+.titulo-quem-somos {
+  font-size: 83.67px;
+  text-transform: uppercase;
+  color: var(--pgblue, #00025B);
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.titulo-contacto {
+  font-size: 83.67px;
+  text-transform: uppercase;
+  color: var(--pgblue, #00025B);
+}
+
+.sub-titulo-registo {
+  font-size: 22.65px;
+  color: var(--pgblue, #00025B);
+  padding-bottom: 1rem;
 }
 
 /*!
