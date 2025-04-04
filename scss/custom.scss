@@ -79,7 +79,6 @@
 
 .fundo-jumbo {
     width:100%;
-    //background-color: $primary;
     border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/home-image.png");
     background-color: $primary;
@@ -233,7 +232,6 @@ h2.newsletter-title {
 .contact-conteudo {
     font-size: 14px;
     vertical-align: middle;
-    color: var(--pgblue, $primary);
     color: var(--pgblack, $secondary);
     padding: 5px 5px 5px 0;
 }
@@ -261,5 +259,12 @@ h2.newsletter-title {
     color: var(--pgblue, $primary);
     padding-bottom: 1rem;
 }
+
+.blog-card-titulo {
+    color: var(--pgblack, $secondary);
+    padding-top: 10px;
+    font-weight: 600;
+}
+
 
 @import "bootstrap";

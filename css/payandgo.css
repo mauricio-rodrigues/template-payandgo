@@ -245,7 +245,6 @@ h2.newsletter-title, .newsletter-title.h2 {
 .contact-conteudo {
   font-size: 14px;
   vertical-align: middle;
-  color: var(--pgblue, #00025B);
   color: var(--pgblack, #1D1D1B);
   padding: 5px 5px 5px 0;
 }
@@ -272,6 +271,12 @@ h2.newsletter-title, .newsletter-title.h2 {
   font-size: 22.65px;
   color: var(--pgblue, #00025B);
   padding-bottom: 1rem;
+}
+
+.blog-card-titulo {
+  color: var(--pgblack, #1D1D1B);
+  padding-top: 10px;
+  font-weight: 600;
 }
 
 /*!
