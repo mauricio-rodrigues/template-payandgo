@@ -106,6 +106,7 @@
   background-repeat: no-repeat;
   height: 300px;
   align-content: space-around;
+  background-position: center;
 }
 
 .msg-pode-contar {
@@ -187,7 +188,7 @@ h2.newsletter-title, .newsletter-title.h2 {
   font-size: 12px;
   vertical-align: middle;
   color: var(--White, #F5F5F5);
-  padding: 15px;
+  padding: 5px;
 }
 
 .newsletter-txt {
@@ -201,6 +202,7 @@ h2.newsletter-title, .newsletter-title.h2 {
   background: #F5F5F5;
   color: #00025B;
   border: 0px;
+  height: 40px;
 }
 
 .contacto {
@@ -218,12 +220,6 @@ h2.newsletter-title, .newsletter-title.h2 {
   background: var(--pgblue, #00025B);
   border: 1px solid var(--pgblack, #00025B);
   width: 100%;
-}
-
-.form-control.contact-input {
-  border-radius: 4px;
-  border-width: 1px;
-  color: var(--White, #00025B);
 }
 
 .ig-contact {
@@ -277,6 +273,25 @@ h2.newsletter-title, .newsletter-title.h2 {
   color: var(--pgblack, #1D1D1B);
   padding-top: 10px;
   font-weight: 600;
+}
+
+.fundo-blog {
+  width: 100%;
+  border-radius: 0 0 25px 25px;
+  background-image: url("../dist/img/blog.png");
+  background-color: #00025B;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  align-content: space-around;
+}
+
+.invalid-feedback-claro {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #fe0d00;
 }
 
 /*!

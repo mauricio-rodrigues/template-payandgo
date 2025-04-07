@@ -20,7 +20,7 @@
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="quemsomos.html" class="btn header-menu-item">Quem Somos</a></li>
         <li><a href="planos.html" class="btn header-menu-item">PAY&GO</a></li>
-        <li><a href="#" class="btn header-menu-item">Blog</a></li>
+        <li><a href="blog.html" class="btn header-menu-item">Blog</a></li>
         <li><a href="faqs.html" class="btn header-menu-item">FAQs</a></li>
         <li><a href="contacto.html" class="btn header-menu-item">Contactos</a></li>
       </ul>
@@ -42,206 +42,216 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
+      <form action="registo.json" id="registo-form" modelAttribute="registo" commandName="registo" method="post"
+        class="form-wrapper">
 
-          <div class="row">
-            <div class="col sub-titulo-registo">
-              Informações Institucionais
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="nome" placeholder="Nome da Instituição"
-                  maxlength="100">
-                <div class="invalid-feedback">
-                  O nome da Instituição é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
+        <div class="row">
+          <div class="col-md-6">
 
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="morada" placeholder="Morada" maxlength="100">
-                <div class="invalid-feedback">
-                  A morada é necessária.
+            <div class="row">
+              <div class="col sub-titulo-registo">
+                Informações Institucionais
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="nome" name="nome"
+                    placeholder="Nome da Instituição" maxlength="100">
+                  <div class="invalid-feedback">
+                    O nome da Instituição é necessário.
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="codigopostal" placeholder="Código Postal"
-                  maxlength="10">
-                <div class="invalid-feedback">
-                  O Código Postal é necessário.
+            <div class="row">
+              <div class="col p-1">
+
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="morada" name="morada" placeholder="Morada"
+                    maxlength="100">
+                  <div class="invalid-feedback">
+                    A morada é necessária.
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-8 p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="localidade" placeholder="Localidade"
-                  maxlength="50">
-                <div class="invalid-feedback">
-                  A Localidade é necessária.
+            <div class="row">
+              <div class="col-md-4 p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="codigopostal" name="codigopostal"
+                    placeholder="Código Postal" maxlength="10">
+                  <div class="invalid-feedback">
+                    O Código Postal é necessário.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="localidade" name="localidade"
+                    placeholder="Localidade" maxlength="50">
+                  <div class="invalid-feedback">
+                    A Localidade é necessária.
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Email"
+                    maxlength="100">
+                  <div class="invalid-feedback">
+                    O email é necessário.
+                  </div>
+                </div>
+              </div>
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="telefone" name="telefone"
+                    placeholder="Telefone" maxlength="20">
+                  <div class="invalid-feedback">
+                    O Telefone é necessário.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="contribuinte" name="contribuinte"
+                    placeholder="Número de Identificação de Pessoa Coletiva" maxlength="100">
+                  <div class="invalid-feedback">
+                    O Número de Identificação de Pessoa Coletiva é necessário.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="iban" name="iban" placeholder="IBAN"
+                    maxlength="30">
+                  <div class="invalid-feedback">
+                    O IBAN é necessária.
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="email" class="form-control contact-input" id="email" placeholder="Email" maxlength="100">
-                <div class="invalid-feedback">
-                  O email é necessário.
-                </div>
-              </div>
-            </div>
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="telefone" placeholder="Telefone"
-                  maxlength="20">
-                <div class="invalid-feedback">
-                  O Telefone é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="contribuinte"
-                  placeholder="Número de Identificação de Pessoa Coletiva" maxlength="100">
-                <div class="invalid-feedback">
-                  O Número de Identificação de Pessoa Coletiva é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="iban" placeholder="IBAN" maxlength="30">
-                <div class="invalid-feedback">
-                  O IBAN é necessária.
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="col-md-6">
 
+            <div class="row">
+              <div class="col sub-titulo-registo">
+                Informações do Titular
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="nome" name="nome"
+                    placeholder="Nome do Responsável" maxlength="100">
+                  <div class="invalid-feedback">
+                    O nome do Responsável é necessário.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="morada" name="morada" placeholder="Morada"
+                    maxlength="100">
+                  <div class="invalid-feedback">
+                    A morada é necessária.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="codigopostal" name="codigopostal"
+                    placeholder="Código Postal" maxlength="10">
+                  <div class="invalid-feedback">
+                    O Código Postal é necessário.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="localidade" name="localidade"
+                    placeholder="Localidade" maxlength="50">
+                  <div class="invalid-feedback">
+                    A Localidade é necessária.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Email"
+                    maxlength="100">
+                  <div class="invalid-feedback">
+                    O email é necessário.
+                  </div>
+                </div>
+
+              </div>
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="telemovel" name="telemovel"
+                    placeholder="Telemóvel" maxlength="20">
+                  <div class="invalid-feedback">
+                    O Telemóvel é necessário.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="docident" name="docident"
+                    placeholder="Documento de Identificação" maxlength="20">
+                  <div class="invalid-feedback">
+                    O Documento de Identificação é necessário.
+                  </div>
+                </div>
+              </div>
+              <div class="col p-1">
+                <div class="input-group has-validation">
+                  <input type="text" class="form-control contact-input" id="contribuinte" name="contribuinte"
+                    placeholder="Número de Identificação Fiscal" maxlength="20">
+                  <div class="invalid-feedback">
+                    O Número de Identificação Fiscal é necessário.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-1">
+                <div class="input-group">
+                  <input type="text" class="form-control contact-input" id="voucher" name="voucher"
+                    placeholder="Voucher" maxlength="20">
+                </div>
+              </div>
+
+              <div class="col p-1">
+                <button type="button" id="btnEnviar" class="btn-contacto rounded-pill">Enviar Mensagem</button>
+              </div>
+            </div>
+
+          </div>
         </div>
-
-
-        <div class="col-md-6">
-
-          <div class="row">
-            <div class="col sub-titulo-registo">
-              Informações do Titular
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="nome" placeholder="Nome do Responsável"
-                  maxlength="100">
-                <div class="invalid-feedback">
-                  O nome do Responsável é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="morada" placeholder="Morada" maxlength="100">
-                <div class="invalid-feedback">
-                  A morada é necessária.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="codigopostal" placeholder="Código Postal"
-                  maxlength="10">
-                <div class="invalid-feedback">
-                  O Código Postal é necessário.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="localidade" placeholder="Localidade"
-                  maxlength="50">
-                <div class="invalid-feedback">
-                  A Localidade é necessária.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="email" class="form-control contact-input" id="email" placeholder="Email" maxlength="100">
-                <div class="invalid-feedback">
-                  O email é necessário.
-                </div>
-              </div>
-
-            </div>
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="telemovel" placeholder="Telemóvel"
-                  maxlength="20">
-                <div class="invalid-feedback">
-                  O Telemóvel é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="docident"
-                  placeholder="Documento de Identificação" maxlength="20">
-                <div class="invalid-feedback">
-                  O Documento de Identificação é necessário.
-                </div>
-              </div>
-            </div>
-            <div class="col p-1">
-              <div class="input-group has-validation">
-                <input type="text" class="form-control contact-input" id="contribuinte"
-                  placeholder="Número de Identificação Fiscal" maxlength="20">
-                <div class="invalid-feedback">
-                  O Número de Identificação Fiscal é necessário.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col p-1">
-              <div class="input-group">
-                <input type="text" class="form-control contact-input" id="voucher" placeholder="Voucher" maxlength="20">
-              </div>
-            </div>
-
-            <div class="col p-1">
-              <button type="button" class="btn-contacto rounded-pill">Enviar Mensagem</button>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      </form>
     </div>
   </div>
 
@@ -277,9 +287,98 @@
     </div>
   </footer>
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+    integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript">
+
+    $(function () {
+      $('#registo-form').validate({
+        rules: {
+          nome: { required: true },
+          email: { required: true },
+          telemovel: { required: true },
+          assunto: {
+            required: true
+            , minlength: 20
+            , maxlength: 80
+          },
+          mensagem: {
+            required: true
+            , minlength: 20
+            , maxlength: 400
+          },
+        },
+        messages: {
+          nome: { required: "O seu nome é necessário." },
+          telemovel: { required: "O seu contacto é necessário." },
+          email: { required: "O seu email é necessário.", email: "Preencha um endereço de e-mail válido." },
+          assunto: {
+            required: "O assunto é necessário."
+            , minlength: "Por favor digite no mínimo {0} caracteres"
+            , maxlength: "Por favor digite no máximo {0} caracteres"
+
+          },
+          mensagem: {
+            required: "A sua mensagem é necessária."
+            , minlength: "Por favor digite no mínimo {0} caracteres"
+            , maxlength: "Por favor digite no máximo {0} caracteres"
+          },
+        },
+        submitHandler: function (form) {
+          event.preventDefault();
+          $.ajaxSetup({ cache: false });
+          var form = $('#contact-form');
+          $.ajax({
+            url: form.attr('action'),
+            type: form.attr('method'),
+            data: form.serialize(),
+            success: function (result) {
+              if (result.sucesso == true) {
+                var url = "${pageContext.request.contextPath}/contactofinal.html";
+                location.href = url;
+              } else {
+                $("#errors").text(result.resposta);
+                $("#errors").show();
+              }
+            }
+          });
+          return false;
+        },
+        errorElement: 'span',
+        errorPlacement: function (error, element) {
+          error.addClass('invalid-feedback');
+          element.closest('.input-group').append(error);
+        },
+        highlight: function (element, errorClass, validClass) {
+          $(element).addClass('is-invalid');
+        },
+        unhighlight: function (element, errorClass, validClass) {
+          $(element).removeClass('is-invalid');
+        }
+      });
+
+      $('#btnEnviar').off('click');
+      $('#btnEnviar').on('click', function (event) {
+        event.preventDefault();
+        $.ajaxSetup({ cache: false });
+        if ($('#registo-form').valid()) {
+          //$('#contact-form').submit();
+          //$(this).prop('disabled', true);
+        }
+        return false;
+      });
+
+    });
+  </script>
+
 </body>
 
 </html>

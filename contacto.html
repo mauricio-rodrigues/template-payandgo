@@ -20,7 +20,7 @@
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="quemsomos.html" class="btn header-menu-item">Quem Somos</a></li>
         <li><a href="planos.html" class="btn header-menu-item">PAY&GO</a></li>
-        <li><a href="#" class="btn header-menu-item">Blog</a></li>
+        <li><a href="blog.html" class="btn header-menu-item">Blog</a></li>
         <li><a href="faqs.html" class="btn header-menu-item">FAQs</a></li>
         <li><a href="contacto.html" class="btn header-menu-item">Contactos</a></li>
       </ul>
@@ -54,79 +54,71 @@
         <div class="col">
           <div class="row">
             <div class="col-md-5 p-3">
-              <table width="100%">
-                <tr>
-                  <td class="ig-contact">
+
+              <form action="contacto.json" id="contact-form" modelAttribute="contacto" commandName="contacto"
+                method="post" class="form-wrapper">
+
+                <div class="row">
+                  <div class="col-md-6 ig-contact">
                     <div class="input-group has-validation">
                       <span class="input-group-text">
                         <img src="dist/img/IconPerson.svg" alt="Nome">
                       </span>
-                      <input type="text" class="form-control contact-input" id="nome" placeholder="Nome"
-                        maxlength="100">
-                      <div class="invalid-feedback">
-                        O seu nome é necessário.
-                      </div>
-
-                  </td>
-                  <td class="ig-contact">
+                      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" maxlength="100"
+                        required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ig-contact">
                     <div class="input-group has-validation">
                       <span class="input-group-text">
-                        <img src="dist/img/IconPhone.svg" alt="Nome">
+                        <img src="dist/img/IconPhone.svg" alt="Telemovel">
                       </span>
-                      <input type="text" class="form-control contact-input" id="contacto" placeholder="Contacto"
-                        maxlength="20">
-                      <div class="invalid-feedback">
-                        O seu contacto é necessário.
-                      </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="ig-contact">
+                      <input type="text" class="form-control" id="telemovel" name="telemovel" placeholder="Contacto"
+                        maxlength="20" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 ig-contact">
                     <div class="input-group has-validation">
                       <span class="input-group-text">
                         <img src="dist/img/IconMail.svg" alt="Nome">
                       </span>
-                      <input type="email" class="form-control contact-input" id="email" placeholder="Email"
-                        maxlength="100">
-                      <div class="invalid-feedback">
-                        O email é necessário.
-                      </div>
-                  </td>
-                  <td class="ig-contact">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                        maxlength="100" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ig-contact">
                     <div class="input-group has-validation">
                       <span class="input-group-text">
                         <img src="dist/img/IconLightbulb.svg" alt="Nome">
                       </span>
-                      <input type="text" class="form-control contact-input" id="assunto" placeholder="Assunto"
-                        maxlength="100">
-                      <div class="invalid-feedback">
-                        O assunto é necessário.
-                      </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="ig-contact" colspan="2">
+                      <input type="text" class=" form-control" id="assunto" name="assunto" placeholder="Assunto"
+                        maxlength="100" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 ig-contact">
                     <div class="input-group has-validation">
                       <span class="input-group-text" style="display: flow;">
                         <img src="dist/img/IconEdit.svg" alt="Mensagem">
                       </span>
-                      <textarea class="form-control" id="mensagem" name="mensagem" rows="9" cols="50"
+                      <textarea class="form-control" id="mensagem" name="mensagem" rows="9" cols="50" maxlength="400"
                         placeholder="Mensagem"></textarea>
-                      <div class="invalid-feedback">
-                        A sua mensagem é necessária.
-                      </div>
                     </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" class="ig-contact">
-                    <button type="button" class="btn-contacto rounded-pill">Enviar Mensagem</button>
-                  </td>
-                </tr>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 ig-contact">
+                    <button type="button" id="btnEnviar" class="btn-contacto rounded-pill">Enviar Mensagem</button>
+                  </div>
+                </div>
 
-              </table>
+              </form>
 
             </div>
+
 
             <div class="col-md-3 p-3">
               <div class="row contact-border-bottom">
@@ -244,6 +236,94 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+    integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript">
+
+    $(function () {
+      $('#contact-form').validate({
+        rules: {
+          nome: { required: true },
+          email: { required: true },
+          telemovel: { required: true },
+          assunto: {
+            required: true
+            , minlength: 20
+            , maxlength: 80
+          },
+          mensagem: {
+            required: true
+            , minlength: 20
+            , maxlength: 400
+          },
+        },
+        messages: {
+          nome: { required: "O seu nome é necessário." },
+          telemovel: { required: "O seu contacto é necessário." },
+          email: { required: "O seu email é necessário.", email: "Preencha um endereço de e-mail válido." },
+          assunto: {
+            required: "O assunto é necessário."
+            , minlength: "Por favor digite no mínimo {0} caracteres"
+            , maxlength: "Por favor digite no máximo {0} caracteres"
+
+          },
+          mensagem: {
+            required: "A sua mensagem é necessária."
+            , minlength: "Por favor digite no mínimo {0} caracteres"
+            , maxlength: "Por favor digite no máximo {0} caracteres"
+          },
+        },
+        submitHandler: function (form) {
+          event.preventDefault();
+          $.ajaxSetup({ cache: false });
+          var form = $('#contact-form');
+          $.ajax({
+            url: form.attr('action'),
+            type: form.attr('method'),
+            data: form.serialize(),
+            success: function (result) {
+              if (result.sucesso == true) {
+                var url = "${pageContext.request.contextPath}/contactofinal.html";
+                location.href = url;
+              } else {
+                $("#errors").text(result.resposta);
+                $("#errors").show();
+              }
+            }
+          });
+          return false;
+        },
+        errorElement: 'span',
+        errorPlacement: function (error, element) {
+          error.addClass('invalid-feedback');
+          element.closest('.input-group').append(error);
+        },
+        highlight: function (element, errorClass, validClass) {
+          $(element).addClass('is-invalid');
+        },
+        unhighlight: function (element, errorClass, validClass) {
+          $(element).removeClass('is-invalid');
+        }
+      });
+
+      $('#btnEnviar').off('click');
+      $('#btnEnviar').on('click', function (event) {
+        event.preventDefault();
+        $.ajaxSetup({ cache: false });
+        if ($('#contact-form').valid()) {
+          //$('#contact-form').submit();
+          //$(this).prop('disabled', true);
+        }
+        return false;
+      });
+
+    });
+  </script>
+
 </body>
 
 </html>

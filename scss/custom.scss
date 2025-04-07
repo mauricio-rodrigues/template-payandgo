@@ -101,6 +101,7 @@
     background-repeat:no-repeat;
     height: 300px;
     align-content:space-around;
+    background-position:center;
 }
 
 .msg-pode-contar {
@@ -177,7 +178,7 @@ h2.newsletter-title {
     font-size: 12px;
     vertical-align: middle;
     color: var(--White, $light);
-    padding: 15px;
+    padding: 5px;
 }
 .newsletter-txt {
     font-size: 14px;
@@ -189,6 +190,7 @@ h2.newsletter-title {
     background: $light;
     color: $primary;
     border: 0px;
+    height: 40px;
 }
 
 .contacto {
@@ -206,12 +208,6 @@ h2.newsletter-title {
     background: var(--pgblue, $primary);
     border: 1px solid var(--pgblack, $primary);
     width: 100%;
-}
-
-.form-control.contact-input {
-    border-radius: 4px;
-    border-width: 1px;
-    color: var(--White, $primary);   
 }
 
 .ig-contact {
@@ -266,5 +262,22 @@ h2.newsletter-title {
     font-weight: 600;
 }
 
+.fundo-blog {
+    width:100%;
+    border-radius: 0 0 25px 25px;
+    background-image: url("../dist/img/blog.png");
+    background-color: $primary;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 300px;
+    align-content:space-around;
+}
+.invalid-feedback-claro {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #fe0d00;
+}
 
 @import "bootstrap";
