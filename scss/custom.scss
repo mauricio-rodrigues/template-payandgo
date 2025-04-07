@@ -52,6 +52,7 @@
     text-align: center;
     color: $light;
     text-shadow: 4px 4px 6px $secondary;
+    font-weight:900;
 }
 .jumbo-nota-planos {
     font-size: 10px;
@@ -91,7 +92,7 @@
     background-image: url("../dist/img/planos-image.png");
     background-color: $primary;
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .fundo-faqs {
     width:100%;
