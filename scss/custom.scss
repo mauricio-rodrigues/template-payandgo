@@ -93,15 +93,6 @@
     background-size: cover;
 }
 
-.msg-pode-contar {
-    font-size: 36.65px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: var(--pgblack, $light);
-    text-align: center;
-    padding-top: 60px;
-}
-
 .fundo-planos {
     width:100%;
     background-image: url("../dist/img/planos-image.png");
@@ -140,9 +131,10 @@
 
 .titulo-preto {
     font-size: 36.65px;
+    font-weight: 600;
     text-transform: uppercase;
     color: var(--pgblack, $secondary);
-    padding: 10px 0 20px 0;
+    padding: 0px 0 20px 0;
 }
 
 .titulo-azul {
