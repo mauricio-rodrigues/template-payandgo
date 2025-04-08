@@ -29,6 +29,18 @@
   color: #1D1D1B;
 }
 
+.nav-item.menu {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 8px;
+  height: 40px;
+}
+
+.nav-link.menu {
+  font-size: 14px;
+  color: #1D1D1B;
+}
+
 .jumbo-header {
   font-size: 36.65px;
   text-transform: uppercase;

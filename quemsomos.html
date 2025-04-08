@@ -10,28 +10,50 @@
 
 <body>
   <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2">
+    <header class="d-flex py-2">
       <div class="col-md-3 mb-2 mb-md-0">
         <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
-          <img src="dist/img/logo-payandgo.svg" alt="PAY&GO">
+          <img src="dist/img/logo-payandgo.svg" alt="Agilize as suas Cobranças" />
         </a>
       </div>
 
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="quemsomos.html" class="btn header-menu-item">Quem Somos</a></li>
-        <li><a href="planos.html" class="btn header-menu-item">PAY&GO</a></li>
-        <li><a href="blog.html" class="btn header-menu-item">Blog</a></li>
-        <li><a href="faqs.html" class="btn header-menu-item">FAQs</a></li>
-        <li><a href="contacto.html" class="btn header-menu-item">Contactos</a></li>
-      </ul>
+      <div class="col-md-9">
+        <nav class="navbar navbar-expand-sm" aria-label="PAY&GO Menu">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+              aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="col-md-3 text-end">
-        <button type="button" onclick="location.href='registo.html'" class="btn-registo rounded-pill">Registo</button>
-        <button type="button" class="btn-signin rounded-pill">Iniciar Sessão</button>
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+              <ul class="navbar-nav me-auto mb-2 mb-sm-0 ">
+                <li class="nav-item menu"><a class="nav-link menu" href="quemsomos.html">Quem Somos</a>
+                </li>
+                <li class="nav-item menu"><a class="nav-link menu" href="planos.html"
+                    class="btn header-menu-item">PAY&GO</a>
+                </li>
+                <li class="nav-item menu"><a class="nav-link menu" href="faqs.html"
+                    class="btn header-menu-item">Blog</a>
+                </li>
+                <li class="nav-item menu"><a class="nav-link menu" href="faqs.html"
+                    class="btn header-menu-item">FAQs</a>
+                </li>
+                <li class="nav-item menu"><a class="nav-link menu" href="contacto.html"
+                    class="btn header-menu-item">Contactos</a>
+                </li>
+              </ul>
+
+              <div>
+                <button type="button" onclick="location.href='registo.html'"
+                  class="btn-registo rounded-pill">Registo</button>
+                <button type="button" class="btn-signin rounded-pill">Iniciar Sessão</button>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
   </div>
-
 
   <div class="container">
     <div class="row">
