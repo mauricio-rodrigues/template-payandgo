@@ -1,19 +1,21 @@
 
 .btn-signin {
     font-size: 14px;
+    font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
     height: 40px;
-    border: 1px solid var(--pgblack, $secondary);
+    border: 1px solid var(--pgblue, $secondary);
 }
 .btn-registo {
     font-size: 14px;
+    font-weight: bold;
     padding-right: 30px;
     padding-left: 30px;
     height: 40px;
     color: $light;
     background: var(--pgblue, $primary);
-    border: 1px solid var(--pgblack, $primary);
+    border: 1px solid var(--pgblue, $primary);
 }
 
 .btn.header-menu-item {
@@ -30,6 +32,8 @@
     font-size: 36.65px;
     text-transform: uppercase;
     color: $light;
+    padding-top: 80px;
+    font-weight: 600;
 }
 
 .jumbo-text{
@@ -60,13 +64,15 @@
     text-align: right;
 }
 
-
 .btn-calltoaction {
+    font-size: 14px;
+    font-weight: bold;
     height: 40px;
     padding-right: 30px;
     padding-left: 30px;
     background: $light;
     color: $primary;
+    border: 1px solid var(--White, $light);
     border: 0px;
 }
 
@@ -80,12 +86,23 @@
 
 .fundo-jumbo {
     width:100%;
-    border-radius: 0 0 25px 25px;
+    height: 511px;
+    //border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/home-image.png");
     background-color: $primary;
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+.msg-pode-contar {
+    font-size: 36.65px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--pgblack, $light);
+    text-align: center;
+    padding-top: 60px;
+}
+
 .fundo-planos {
     width:100%;
     border-radius: 0 0 25px 25px;
@@ -103,15 +120,6 @@
     height: 300px;
     align-content:space-around;
     background-position:center;
-}
-
-.msg-pode-contar {
-    font-size: 36.65px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: var(--pgblack, $light);
-    text-align: center;
-    padding-bottom: 80px;
 }
 
 .footer {
@@ -137,7 +145,7 @@
     font-size: 36.65px;
     text-transform: uppercase;
     color: var(--pgblack, $secondary);
-    padding: 40px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 .titulo-azul {
@@ -154,7 +162,7 @@
     background: $light;
     width: 100%;
     height: 40px;
-    border: 3px solid var(--pgblue, $primary);
+    border: 4px solid var(--pgblue, $primary);
     color: $primary;
 }
 .btn.blog-btn:hover {
@@ -167,11 +175,17 @@
 }
 
 .newsletter {
-    background: $primary;
-    padding: 30px;
+    width:100%;
+    background-image: url("../dist/img/barra_newsletter.png");
+    background-color: $primary;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 30px;    
 }
+
 h2.newsletter-title {
     font-size: 36.65px;
+    font-weight: 600;
     text-transform: uppercase;
     color: $light;
 }
@@ -182,10 +196,12 @@ h2.newsletter-title {
     padding: 5px;
 }
 .newsletter-txt {
-    font-size: 14px;
+    font-size: 16px;
     color: $light;
 }
 .btn-newsletter {
+    font-size: 14px;
+    font-weight: bold;
     padding-right: 30px;
     padding-left: 30px;
     background: $light;
@@ -201,6 +217,7 @@ h2.newsletter-title {
 
 .btn-contacto {
     font-size: 14px;
+    font-weight: bold;
     border-radius: 100px;
     padding-right: 50px;
     padding-left: 50px;
@@ -211,9 +228,6 @@ h2.newsletter-title {
     width: 100%;
 }
 
-.ig-contact {
-    padding: 5px;
-}
 .contact-border-bottom {
     border-bottom: 0.5px solid var(--pgblue, $primary);
     border-width: 0.5px;
@@ -239,6 +253,7 @@ h2.newsletter-title {
 
 .titulo-quem-somos {
     font-size: 83.67px;
+    font-weight: 500;
     text-transform: uppercase;
     color: var(--pgblue, $primary);
     text-align: center;

@@ -1,20 +1,22 @@
 @charset "UTF-8";
 .btn-signin {
   font-size: 14px;
+  font-weight: bold;
   padding-right: 10px;
   padding-left: 10px;
   height: 40px;
-  border: 1px solid var(--pgblack, #1D1D1B);
+  border: 1px solid var(--pgblue, #1D1D1B);
 }
 
 .btn-registo {
   font-size: 14px;
+  font-weight: bold;
   padding-right: 30px;
   padding-left: 30px;
   height: 40px;
   color: #F5F5F5;
   background: var(--pgblue, #00025B);
-  border: 1px solid var(--pgblack, #00025B);
+  border: 1px solid var(--pgblue, #00025B);
 }
 
 .btn.header-menu-item {
@@ -31,6 +33,8 @@
   font-size: 36.65px;
   text-transform: uppercase;
   color: #F5F5F5;
+  padding-top: 80px;
+  font-weight: 600;
 }
 
 .jumbo-text {
@@ -65,11 +69,14 @@
 }
 
 .btn-calltoaction {
+  font-size: 14px;
+  font-weight: bold;
   height: 40px;
   padding-right: 30px;
   padding-left: 30px;
   background: #F5F5F5;
   color: #00025B;
+  border: 1px solid var(--White, #F5F5F5);
   border: 0px;
 }
 
@@ -83,11 +90,20 @@
 
 .fundo-jumbo {
   width: 100%;
-  border-radius: 0 0 25px 25px;
+  height: 511px;
   background-image: url("../dist/img/home-image.png");
   background-color: #00025B;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.msg-pode-contar {
+  font-size: 36.65px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--pgblack, #F5F5F5);
+  text-align: center;
+  padding-top: 60px;
 }
 
 .fundo-planos {
@@ -108,15 +124,6 @@
   height: 300px;
   align-content: space-around;
   background-position: center;
-}
-
-.msg-pode-contar {
-  font-size: 36.65px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: var(--pgblack, #F5F5F5);
-  text-align: center;
-  padding-bottom: 80px;
 }
 
 .footer {
@@ -143,7 +150,7 @@
   font-size: 36.65px;
   text-transform: uppercase;
   color: var(--pgblack, #1D1D1B);
-  padding: 40px 0 20px 0;
+  padding: 10px 0 20px 0;
 }
 
 .titulo-azul {
@@ -160,7 +167,7 @@
   background: #F5F5F5;
   width: 100%;
   height: 40px;
-  border: 3px solid var(--pgblue, #00025B);
+  border: 4px solid var(--pgblue, #00025B);
   color: #00025B;
 }
 
@@ -175,12 +182,17 @@
 }
 
 .newsletter {
-  background: #00025B;
+  width: 100%;
+  background-image: url("../dist/img/barra_newsletter.png");
+  background-color: #00025B;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 30px;
 }
 
 h2.newsletter-title, .newsletter-title.h2 {
   font-size: 36.65px;
+  font-weight: 600;
   text-transform: uppercase;
   color: #F5F5F5;
 }
@@ -193,11 +205,13 @@ h2.newsletter-title, .newsletter-title.h2 {
 }
 
 .newsletter-txt {
-  font-size: 14px;
+  font-size: 16px;
   color: #F5F5F5;
 }
 
 .btn-newsletter {
+  font-size: 14px;
+  font-weight: bold;
   padding-right: 30px;
   padding-left: 30px;
   background: #F5F5F5;
@@ -213,6 +227,7 @@ h2.newsletter-title, .newsletter-title.h2 {
 
 .btn-contacto {
   font-size: 14px;
+  font-weight: bold;
   border-radius: 100px;
   padding-right: 50px;
   padding-left: 50px;
@@ -221,10 +236,6 @@ h2.newsletter-title, .newsletter-title.h2 {
   background: var(--pgblue, #00025B);
   border: 1px solid var(--pgblack, #00025B);
   width: 100%;
-}
-
-.ig-contact {
-  padding: 5px;
 }
 
 .contact-border-bottom {
@@ -252,6 +263,7 @@ h2.newsletter-title, .newsletter-title.h2 {
 
 .titulo-quem-somos {
   font-size: 83.67px;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--pgblue, #00025B);
   text-align: center;
