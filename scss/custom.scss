@@ -87,7 +87,6 @@
 .fundo-jumbo {
     width:100%;
     height: 511px;
-    //border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/home-image.png");
     background-color: $primary;
     background-repeat:no-repeat;
@@ -105,7 +104,6 @@
 
 .fundo-planos {
     width:100%;
-    border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/planos-image.png");
     background-color: $primary;
     background-repeat:no-repeat;
@@ -113,7 +111,6 @@
 }
 .fundo-faqs {
     width:100%;
-    border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/faqs.png");
     background-color: $primary;
     background-repeat:no-repeat;
@@ -280,7 +277,7 @@ h2.newsletter-title {
 
 .fundo-blog {
     width:100%;
-    border-radius: 0 0 25px 25px;
+    //border-radius: 0 0 25px 25px;
     background-image: url("../dist/img/blog.png");
     background-color: $primary;
     background-repeat:no-repeat;

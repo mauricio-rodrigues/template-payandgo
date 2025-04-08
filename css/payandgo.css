@@ -108,7 +108,6 @@
 
 .fundo-planos {
   width: 100%;
-  border-radius: 0 0 25px 25px;
   background-image: url("../dist/img/planos-image.png");
   background-color: #00025B;
   background-repeat: no-repeat;
@@ -117,7 +116,6 @@
 
 .fundo-faqs {
   width: 100%;
-  border-radius: 0 0 25px 25px;
   background-image: url("../dist/img/faqs.png");
   background-color: #00025B;
   background-repeat: no-repeat;
@@ -290,7 +288,6 @@ h2.newsletter-title, .newsletter-title.h2 {
 
 .fundo-blog {
   width: 100%;
-  border-radius: 0 0 25px 25px;
   background-image: url("../dist/img/blog.png");
   background-color: #00025B;
   background-repeat: no-repeat;
