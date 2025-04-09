@@ -97,7 +97,7 @@
 
 .fundo-jumbo {
     width:100%;
-    height: 511px;
+    height: 911px;
     background-image: url("../dist/img/home-image1.png");
     background-color: $primary;
     background-repeat:no-repeat;
@@ -119,6 +119,7 @@
     height: 300px;
     align-content:space-around;
     background-position:center;
+    background-size:cover;
 }
 
 .footer {
@@ -273,8 +274,14 @@ h2.newsletter-title {
 }
 
 .blog-card-titulo {
+    font-size: 18px;
     color: var(--pgblack, $secondary);
     padding-top: 10px;
+    font-weight: 600;
+}
+.blog-card-texto {
+    font-size: 16px;
+    color: var(--pgblack, $secondary);
     font-weight: 600;
 }
 
