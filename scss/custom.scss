@@ -102,8 +102,9 @@
     background-color: $primary;
     background-repeat:no-repeat;
     background-size: cover;
+    background-position:center;
 }
-
+    
 .fundo-planos {
     width:100%;
     background-image: url("../dist/img/planos-image.png");
