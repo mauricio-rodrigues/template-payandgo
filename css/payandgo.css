@@ -22,17 +22,15 @@
 .btn.header-menu-item {
   font-size: 14px;
   border-radius: 100px;
-  padding-right: 30px;
-  padding-left: 30px;
   padding-top: 8px;
   height: 40px;
+  color: #1D1D1B;
   color: #1D1D1B;
 }
 
 .nav-item.menu {
   padding-right: 30px;
   padding-left: 30px;
-  height: 40px;
   text-align: right;
 }
 

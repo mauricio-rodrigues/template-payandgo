@@ -21,17 +21,15 @@
 .btn.header-menu-item {
     font-size: 14px;
     border-radius: 100px;
-    padding-right: 30px;
-    padding-left: 30px;
     padding-top: 8px;
     height: 40px;
+    color: $secondary;
     color: $secondary;
 }
 
 .nav-item.menu {
     padding-right: 30px;
     padding-left: 30px;
-    height: 40px;
     text-align: right;
 }
 
@@ -104,7 +102,7 @@
     background-size: cover;
     background-position:center;
 }
-    
+
 .fundo-planos {
     width:100%;
     background-image: url("../dist/img/planos-image.png");
