@@ -8,6 +8,11 @@
   border: 1px solid var(--pgblue, #1D1D1B);
 }
 
+.btn-signin:hover {
+  background-color: #e3e3ee;
+  border: 1px solid #1D1D1B;
+}
+
 .btn-registo {
   font-size: 14px;
   font-weight: bold;
@@ -19,13 +24,23 @@
   border: 1px solid var(--pgblue, #00025B);
 }
 
+.btn-registo:hover {
+  background-color: #e3e3ee;
+  border: 1px solid #1D1D1B;
+  color: #1D1D1B;
+}
+
 .btn.header-menu-item {
   font-size: 14px;
   border-radius: 100px;
   padding-top: 8px;
   height: 40px;
   color: #1D1D1B;
-  color: #1D1D1B;
+}
+
+.btn.header-menu-item:hover {
+  background-color: #e3e3ee;
+  border: 1px solid #1D1D1B;
 }
 
 .nav-item.menu {
