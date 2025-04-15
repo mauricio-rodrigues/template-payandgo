@@ -147,6 +147,9 @@
     color: $light;
     border: 1px solid $light;
 }
+.btn.header-menu-item.menu-item-footer:hover {
+    color: $primary;
+}
 
 .footer.py-3 {
     padding-top: 2rem !important;
