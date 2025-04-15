@@ -32,6 +32,7 @@
 
 .btn.header-menu-item {
   font-size: 14px;
+  font-weight: 600;
   border-radius: 100px;
   padding-top: 8px;
   height: 40px;
@@ -40,7 +41,7 @@
 
 .btn.header-menu-item:hover {
   background-color: #e3e3ee;
-  border: 1px solid #1D1D1B;
+  border: 1px solid #e3e3ee;
 }
 
 .nav-item.menu {
@@ -64,7 +65,6 @@
 
 .jumbo-text {
   font-size: 22.65px;
-  text-transform: uppercase;
   color: #F5F5F5;
 }
 
@@ -135,7 +135,7 @@
   background-image: url("../img/faqs.png");
   background-color: #00025B;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 494px;
   align-content: space-around;
   background-position: center;
   background-size: cover;
@@ -171,6 +171,13 @@
   text-transform: uppercase;
   color: var(--pgblack, #1D1D1B);
   padding: 0px 0 20px 0;
+}
+
+.titulo-preto-blog {
+  font-size: 36.65px;
+  font-weight: 600;
+  color: var(--pgblack, #1D1D1B);
+  padding: 30px 0 20px 0;
 }
 
 .titulo-azul {
@@ -321,7 +328,7 @@ h2.newsletter-title, .newsletter-title.h2 {
   background-color: #00025B;
   background-repeat: no-repeat;
   background-position: center;
-  height: 300px;
+  height: 494px;
   align-content: space-around;
 }
 
@@ -331,6 +338,10 @@ h2.newsletter-title, .newsletter-title.h2 {
   margin-top: 0.25rem;
   font-size: 0.875em;
   color: #fe0d00;
+}
+
+.input-group-icon {
+  background-color: #F5F5F5;
 }
 
 /*!

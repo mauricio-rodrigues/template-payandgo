@@ -30,6 +30,7 @@
 
 .btn.header-menu-item {
     font-size: 14px;
+    font-weight: 600;
     border-radius: 100px;
     padding-top: 8px;
     height: 40px;
@@ -37,7 +38,7 @@
 }
 .btn.header-menu-item:hover {
     background-color: #e3e3ee;
-    border: 1px solid $secondary;
+    border: 1px solid #e3e3ee;
 }
 
 .nav-item.menu {
@@ -61,7 +62,6 @@
 
 .jumbo-text{
     font-size: 22.65px;
-    text-transform: uppercase;
     color: $light;
 }
 
@@ -128,7 +128,7 @@
     background-image: url("../img/faqs.png");
     background-color: $primary;
     background-repeat:no-repeat;
-    height: 300px;
+    height: 494px;
     align-content:space-around;
     background-position:center;
     background-size:cover;
@@ -162,6 +162,12 @@
     text-transform: uppercase;
     color: var(--pgblack, $secondary);
     padding: 0px 0 20px 0;
+}
+.titulo-preto-blog {
+    font-size: 36.65px;
+    font-weight: 600;
+    color: var(--pgblack, $secondary);
+    padding: 30px 0 20px 0;
 }
 
 .titulo-azul {
@@ -247,7 +253,6 @@ h2.newsletter-title {
 .contact-border-bottom {
     border-bottom: 0.5px solid var(--pgblue, $primary);
     border-width: 0.5px;
-    //padding: 5px;
 }
 
 .contact-titulo {
@@ -302,12 +307,11 @@ h2.newsletter-title {
 
 .fundo-blog {
     width:100%;
-    //border-radius: 0 0 25px 25px;
     background-image: url("../img/blog.png");
     background-color: $primary;
     background-repeat:no-repeat;
     background-position:center;
-    height: 300px;
+    height: 494px;
     align-content:space-around;
 }
 .invalid-feedback-claro {
@@ -316,6 +320,10 @@ h2.newsletter-title {
     margin-top: 0.25rem;
     font-size: 0.875em;
     color: #fe0d00;
+}
+
+.input-group-icon {
+    background-color:$light
 }
 
 @import "bootstrap";
